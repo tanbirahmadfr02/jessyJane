@@ -1,0 +1,65 @@
+#hireMe {
+  padding: 100px 0;
+  text-align: center;
+}
+#hireMe h2 {
+  font-family: var(--poppins);
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  color: #35404e;
+  margin-bottom: 25px;
+}
+
+#hireMe .button {
+  padding: 12px 30px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: var(--poppins);
+  background-color: var(--primaryColor);
+  color: white;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #hireMe {
+    padding: 60px 0;
+  }
+  #hireMe h2 {
+    font-size: 36px;
+    line-height: 38px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #hireMe {
+    padding: 50px 0;
+  }
+  #hireMe h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #hireMe {
+    padding: 50px 0;
+  }
+  #hireMe h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #hireMe {
+    padding: 50px 0;
+  }
+  #hireMe h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+}

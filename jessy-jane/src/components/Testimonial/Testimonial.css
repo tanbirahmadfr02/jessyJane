@@ -1,0 +1,121 @@
+#testimonial {
+  background-color: rgb(209, 243, 229);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  padding: 100px 0;
+}
+#testimonial .heading_area {
+  margin-bottom: 50px;
+}
+#testimonial .item .icon {
+  font-size: 40px;
+  color: var(--primaryColor);
+}
+
+#testimonial .item {
+  padding-bottom: 50px;
+}
+
+#testimonial .item .img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#testimonial .item .img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#testimonial .item h6 {
+  font-family: var(--poppins);
+  font-size: 14px;
+  font-weight: 400;
+  color: #515c6a;
+  text-align: center;
+}
+
+#slider {
+  margin: 200px 0;
+}
+#slider .items {
+  height: 100px;
+  background-color: blue;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #testimonial {
+    padding: 80px 0;
+  }
+  #testimonial .heading {
+    font-size: 34px;
+    line-height: 37px;
+  }
+  #testimonial .item .icon {
+    font-size: 40px;
+  }
+  #testimonial .heading_area {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #testimonial {
+    padding: 50px 0;
+  }
+  #testimonial .heading {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  #testimonial .item .icon {
+    font-size: 31px;
+  }
+  #testimonial .heading_area {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #testimonial {
+    padding: 50px 0;
+  }
+  #testimonial .heading {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  #testimonial .item .icon {
+    font-size: 31px;
+  }
+  #testimonial .heading_area {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #testimonial {
+    padding: 50px 0;
+  }
+  #testimonial .heading {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  #testimonial .item .icon {
+    font-size: 31px;
+  }
+  #testimonial .heading_area {
+    margin-bottom: 20px;
+  }
+}
